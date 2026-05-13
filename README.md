@@ -103,20 +103,4 @@ Once the processing is complete, you will find the generated files inside the `o
   - Action Items (with Owners and Deadlines)
   - Risks / Blockers
 
----
-
-## 🐳 Docker (Optional)
-
-If you prefer to run the CLI orchestration within Docker (to keep your host machine clean from Python dependencies):
-
-```bash
-# Build and run the container in the background
-docker-compose up -d --build
-
-# Jump into the container terminal
-docker exec -it meeting-assistant-cli /bin/bash
-
-# Run the CLI commands directly
-python3 cli/main.py process latest
-```
 *(Note: System audio recording via BlackHole still needs to happen on your host machine, as Docker for Mac cannot easily capture local macOS system audio hardware.)*
