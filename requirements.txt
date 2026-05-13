@@ -1,0 +1,5 @@
+typer
+assemblyai
+google-genai
+python-dotenv
+pydantic
